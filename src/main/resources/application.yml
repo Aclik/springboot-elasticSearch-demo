@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300 # 集群节点IP + 端口号
+      cluster-name: elasticsearch # 集群名称
+      repositories:
+              enabled: true
